@@ -3,9 +3,9 @@ Given('open browser enter simpleform url', () => {
   cy.visit('https://v1.training-support.net/selenium/simple-form');
 });
 When('user enters firstname, lastname, email, contact', () => {
-  cy.get('#firstName').type('John'); // Example first name
-  cy.get('#lastName').type('Doe');    // Example last name
-  cy.get('#email').type('john.doe@gmail.com'); // Example email
+  cy.get('#firstName').type('Neha'); // Example first name
+  cy.get('#lastName').type('Kumari');    // Example last name
+  cy.get('#email').type('nehakri@gmail.com'); // Example email
   cy.get('#number').type('7569335977'); // Example contact number
 });
 And('user clicks on submit', () => {
